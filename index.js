@@ -10,7 +10,7 @@ bot.on("message", function (msg){
     const text = msg.text;
     const firstname = msg.chat.first_name
 
- bot.sendMessage(chatId, 'Xush kelibsiz, ${firstname)',{
+ bot.sendMessage(chatId, `Xush kelibsiz, ${firstname}`,{
     reply_markup: {
         keyboard: [
         [{ text: "Boshlash"}],
